@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { NavLink } from "react-router-dom";
-import logo from '../../images/zeew-logo-green.png';
+import logo from '../../images/zeew-green-websites-logo.svg';
 import './header.component.css';
 
 export class AppHeader extends Component {
@@ -14,7 +14,7 @@ export class AppHeader extends Component {
                                 <nav className="navbar navbar-expand-xl h1-nav">
                                     <div>
                                         <a className="navbar-brand" href="/index.html">
-                                            <img src={logo} className="Logo" width={74} alt="logo" />
+                                            <img src={logo} className="Logo" width={120} alt="logo" />
                                         </a>
                                         <div className="btn-group languages">
                                             <a className="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

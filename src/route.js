@@ -1,7 +1,12 @@
 import React, {Component} from 'react';
 import {Route} from "react-router-dom";
+/*Pages*/
 import {AboutPage} from "./components/pages/about/about.page";
 import {TeamPage} from "./components/pages/team/team.page";
+/*Home partials*/
+import {Main} from "./partials/main/main.partial";
+import {Blog} from "./partials/blog/blog.partial";
+import {Referrals} from "./partials/referrals/referral.partial";
 
 export class AppRoute extends Component{
     render() {
@@ -15,9 +20,12 @@ export class AppRoute extends Component{
         )
     }
 }
+
 const Home = () => (
     <div>
-        <h1>Hello World!</h1>
+        <Main/>
+        <Blog/>
+        <Referrals/>
     </div>
 );
 
