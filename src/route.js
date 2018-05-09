@@ -1,12 +1,12 @@
 import React, {Component} from 'react';
 import {Route} from "react-router-dom";
 /*Pages*/
-import {AboutPage} from "./components/pages/about/about.page";
-import {TeamPage} from "./components/pages/team/team.page";
+import {AboutPage} from "./pages/about/about.page";
+import {TeamPage} from "./pages/team/team.page";
 /*Home partials*/
-import {Main} from "./partials/main/main.partial";
-import {Blog} from "./partials/blog/blog.partial";
-import {Referrals} from "./partials/referrals/referral.partial";
+import {Main} from "./components/main/main.partial";
+import {Blog} from "./components/Blog/Blog.component";
+import {Referrals} from "./components/Referrals/Referral.component";
 
 export class AppRoute extends Component{
     render() {
