@@ -14,7 +14,7 @@ export class Footer extends Component {
                 </div>
 
                 <div className="telegram-fixed" hidden={true}>
-                    <a href="https://t.me/Zeewgroup" className="text-zeew" target="_blank"><i
+                    <a href="https://t.me/Zeewgroup" className="text-zeew" target="_blank" rel="noopener noreferrer"><i
                         className="fab fa-telegram"></i></a>
                 </div>
                 <div className="container">
@@ -80,22 +80,22 @@ export class Footer extends Component {
 
                         <div className="col-lg-4 col-md-6">
                             <div>
-                                <a href="#Home"><img src={logo} width="200px"/></a>
+                                <a href="#Home"><img src={logo} width="200px" alt="Zeew Logo" /></a>
                             </div>
 
                             <div className="social-links">
-                                <a href="https://www.fb.com/ZeewApp/" target="_blank"><i
+                                <a href="https://www.fb.com/ZeewApp/" target="_blank" rel="noopener noreferrer"><i
                                     className="fab fa-facebook"></i></a>
-                                <a href="https://t.me/Zeewgroup" target="_blank"><i className="fab fa-telegram"></i></a>
-                                <a href="https://twitter.com/ZeewApp" target="_blank"><i className="fab fa-twitter"></i></a>
-                                <a href="https://www.youtube.com/channel/UCj6CB9BGnTja8Iw4QuuiCGQ" target="_blank"><i
+                                <a href="https://t.me/Zeewgroup" target="_blank" rel="noopener noreferrer"><i className="fab fa-telegram"></i></a>
+                                <a href="https://twitter.com/ZeewApp" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter"></i></a>
+                                <a href="https://www.youtube.com/channel/UCj6CB9BGnTja8Iw4QuuiCGQ" target="_blank" rel="noopener noreferrer"><i
                                     className="fab fa-youtube"></i></a>
-                                <a href="https://www.instagram.com/zeewapp/" target="_blank"><i
+                                <a href="https://www.instagram.com/zeewapp/" target="_blank" rel="noopener noreferrer"><i
                                     className="fab fa-instagram"></i></a>
-                                <a href="https://www.linkedin.com/company/zeew/" target="_blank"><i
+                                <a href="https://www.linkedin.com/company/zeew/" target="_blank" rel="noopener noreferrer"><i
                                     className="fab fa-linkedin"></i></a>
                             </div>
-                            <img src="images/payments.png"/>
+                            <img src="images/payments.png" alt="Accepted Payment systems" />
                             <div className="m-t-40">Zeew © 2017 All rights reserved.</div>
                             <div id="clock"></div>
                         </div>

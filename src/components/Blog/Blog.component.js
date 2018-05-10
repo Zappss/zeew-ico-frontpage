@@ -16,7 +16,7 @@ export class Blog extends Component {
                             <div className="card b-h-box font-14" data-aos="flip-left">
                                 <img className="card-img"
                                      src="images/news/MITA__Zeew.jpg"
-                                     alt="Card image"/>
+                                     alt="Zeew wins €22,000 Malta Grant for innovation "/>
                                     <div className="card-img-overlay">
                                         <span className="bg-zeew-gradiant label">Grant, MITA</span>
                                          <span className="m-l-10">Feb 26, 2018</span>

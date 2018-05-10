@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { NavLink } from "react-router-dom";
+/*import { NavLink } from "react-router-dom";*/
 import logo from '../../images/zeew-green-websites-logo.svg';
 import './Header.component.css';
 
@@ -11,17 +11,17 @@ export class Header extends Component {
                     <nav className="navbar navbar-expand-xl h1-nav">
                         <div>
                             <a className="navbar-brand" href="/index.html">
-                                <img src={logo} className="Logo" height={74} alt="logo" />
+                                <img src={logo} className="Logo" height={74} alt="Zeew Logo" />
                             </a>
                             <div className="btn-group languages">
                                 <a className="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    <img src="images/flags/Flag_of_the_United_Kingdom.svg" width="30px" /> UK
+                                    <img src="images/flags/Flag_of_the_United_Kingdom.svg" width="30px" alt="Selected Lang" /> UK
                                 </a>
                                 <div className="dropdown-menu bg-light">
-                                    <a className="dropdown-item" href="#"><img src="images/flags/Flag_of_the_United_Kingdom.svg" width="30px" /> UK</a>
-                                    <a className="dropdown-item" href="#"><img src="images/flags/Flag_of_Russia.svg" width="30px" /> Russia</a>
-                                    <a className="dropdown-item" href="#"><img src="images/flags/Flag_of_South_Korea.svg" width="30px" /> Korea</a>
-                                    <a className="dropdown-item" href="#"><img src="images/flags/Flag_of_Vietnam.svg" width="30px" /> Vietnam</a>
+                                    <a className="dropdown-item" href="#UK"><img src="images/flags/Flag_of_the_United_Kingdom.svg" width="30px" alt="Lang UK" /> UK</a>
+                                    <a className="dropdown-item" href="#RU"><img src="images/flags/Flag_of_Russia.svg" width="30px" alt="Lang RU" /> Russia</a>
+                                    <a className="dropdown-item" href="#KO"><img src="images/flags/Flag_of_South_Korea.svg" width="30px" alt="Lang KO" /> Korea</a>
+                                    <a className="dropdown-item" href="#VT"><img src="images/flags/Flag_of_Vietnam.svg" width="30px" alt="Lang VT" /> Vietnam</a>
                                 </div>
                             </div>
                         </div>
@@ -60,7 +60,7 @@ export class Header extends Component {
                                 <li className="nav-item"><a className="nav-link" href="/page.html?id=faq">FAQ</a></li>
                                 <li className="nav-item"><a className="btn btn-outline-info"
                                                             href="http://t.me/zeewgroup"
-                                                            target="_blank"><i className="fab fa-telegram"></i> Telegram</a>
+                                                            target="_blank" rel="noopener noreferrer"><i className="fab fa-telegram"></i> Telegram</a>
                                 </li>
                                 <li className="nav-item"><a className="btn btn-outline-zeew"
                                                             href="https://wallet.zeew.eu"><i

@@ -214,7 +214,8 @@ export class MainBillboard extends Component {
                                 <div className="video-wrapper">
                                     <iframe src="https://www.youtube.com/embed/Td7cb7pQr0c?controls=0" frameBorder="0"
                                             allow="autoplay; encrypted-media" allowFullScreen="" width="100%"
-                                            height="100%"></iframe>
+                                            height="100%"
+                                            title="Promo Video"></iframe>
                                 </div>
                                 <div className="quick-launch" data-aos="flip-down" data-aos-delay="800">
                                     <ul className="list-inline">
